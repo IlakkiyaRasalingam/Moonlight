@@ -120,6 +120,10 @@
     height: 3rem;
 }
 
+.navbar-collapse{
+    margin-left: 450px;
+}
+
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
@@ -132,7 +136,13 @@
         height: 100%;
         object-fit: cover;
     }
+    .navbar-toggler-icon{
+        display: block;
+    }
 
+}
+.navbar{
+    height: 100px;
 }
 
 .page-header {

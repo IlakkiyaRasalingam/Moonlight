@@ -97,6 +97,18 @@
         padding: 10px 0;
     }
 }
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: #0F172B;
+        padding: 10px 0;
+    }
+
+    .navbar-nav .nav-link {
+        color: white !important;
+        padding: 10px;
+    }
+}
+
 
 
 /*** Header ***/
@@ -120,9 +132,7 @@
     height: 3rem;
 }
 
-.navbar-collapse{
-    margin-left: 450px;
-}
+
 
 @media (max-width: 768px) {
     #header-carousel .carousel-item {

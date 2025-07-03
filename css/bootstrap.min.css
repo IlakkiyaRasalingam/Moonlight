@@ -4452,7 +4452,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-nav {
-    display: block;
+    display: flex;
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
@@ -4549,7 +4549,7 @@ fieldset:disabled .btn {
     }
 
     .navbar-expand-sm .navbar-toggler {
-        display: none
+        display: flex
     }
 }
 
@@ -4612,6 +4612,7 @@ fieldset:disabled .btn {
     .navbar-expand-lg .navbar-collapse {
         display: flex !important;
         flex-basis: auto
+       
     }
 
     .navbar-expand-lg .navbar-toggler {

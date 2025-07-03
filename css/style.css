@@ -520,3 +520,7 @@
         padding: 10px;
     }
 }
+
+.navbar-nav.mr-auto.py-0 {
+    padding-left: 500px !important;
+}

@@ -95,12 +95,14 @@
     .navbar-dark .navbar-nav .nav-link  {
         margin-right: 0;
         padding: 10px 0;
+          
     }
 }
 @media (max-width: 768px) {
     .navbar-collapse {
         background-color: #0F172B;
         padding: 10px 0;
+        
     }
 
     .navbar-nav .nav-link {
@@ -522,5 +524,5 @@
 }
 
 .navbar-nav.mr-auto.py-0 {
-    padding-left: 500px !important;
+    padding-left: 60px !important;
 }
